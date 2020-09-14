@@ -1,0 +1,57 @@
+
+html{
+  font-size: 1.5rem;
+  background: darkcyan;
+ }
+ 
+ :root{
+  --scarlet-color: #ff4567f6;
+ }
+
+.center{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container{
+  text-align: justify;
+}
+
+.button-manu{
+border: 4rem;
+padding: 5rem;
+margin: 5rem;
+      
+}
+.heading{
+font-size: 4.6rem;
+color: var(--scarlet-color);
+background-color: whitesmoke;
+text-align: center;
+}
+
+.heading-paragraph{
+  background-color: whitesmoke
+}
+
+
+.logo{
+   position: absolute;
+   top: 0.05rem;
+   right: 1.5rem;
+   
+}
+
+.logo h1 span{
+  font-size: 2.5rem;
+  font-weight:20%;
+  color: whitesmoke;
+  text-transform: uppercase;
+  background-color: var(--scarlet-color);
+  margin: 0.001rem;
+  border-radius: 100%;
+}
+
+/* end of header */
+
